@@ -6,7 +6,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose version
-git clone SSH_REPOSITORIE_NAME
-cd caseonalize
-docker image build . -t CONTAINER_NAME
+git clone "SSH_REPOSITORIE_NAME"
+cd "REPOSITORIE_NAME"
+docker image build . -t "CONTAINER_NAME"
 docker-compose up
